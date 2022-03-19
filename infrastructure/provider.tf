@@ -7,7 +7,7 @@ provider "aws" {
 terraform {
     backend "s3" {
         bucket = "terraform-state-joaopauloribeiro"
-        key = "state/modulo1/terraform.tfstate"
+        key = "state/modulo1/stream/terraform.tfstate"
         region = "us-east-1"
     }
 }
