@@ -7,7 +7,7 @@ variable "aws_region" {
 # }
 
 variable "key_pair_name" {
-  default = "aws-jpsr-rais"
+  default = "jpsr-stream"
 }
 
 variable "airflow_subnet_id" {
