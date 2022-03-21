@@ -1,3 +1,4 @@
 *.csv
 *.exe
 *.pem
+airflow_variables.json
